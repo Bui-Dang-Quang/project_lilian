@@ -1,0 +1,14 @@
+[project]
+name = "ecommerce-order-management"
+version = "0.1.0"
+description = "Legacy e-commerce system refactoring project"
+requires-python = ">=3.11"
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+strict_optional = true
